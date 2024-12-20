@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
-import { CategoryGrid } from "./CategoryGrid";
+import { CategoryGrid } from "../CategoryGrid";
 
 export function MealItem({ meals, comp }) {
   console.log(meals.title, comp);
